@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plantilla 1</title>
+</head>
+<body style="background-color: aqua;">
+    <h1>Esto es un titulo.</h1>
+    <p>Esto es un parrafo.</p>
+    <p>Esto es otro parrafo.</p>
+    <p>La fecha al ultimo momento de actualizacion de pagina es: {{ahora}}</p>
+    <p>{{lista_numeros}}</p>
+    <p>Esta pagina fue creada por: {{name}}</p>
+    <br>
+    {% for numero in lista_numeros %}
+    <p>valor: {{numero}}</p>
+    {% endfor %}
+
+</body>
+</html>
